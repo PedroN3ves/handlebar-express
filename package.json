@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "expres": "^0.0.5",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1"
+  },
+  "name": "handlebars-express",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LUSKIA/Pedrao.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LUSKIA/Pedrao/issues"
+  },
+  "homepage": "https://github.com/LUSKIA/Pedrao#readme"
+}
