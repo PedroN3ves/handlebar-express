@@ -1,0 +1,16 @@
+<h1>Edit your book info</h1>
+<form action="/books/update/{{book.id}}" method="post">
+    <div class="">
+        <label for="title">Title</label>
+        <input type="text" name="title" value="{{book.title}}">
+    </div>
+
+    <div class="">
+        <label for="pages_number">Pages</label>
+        <input type="number" name="pages_number" value="{{book.pages_number}}">
+    </div>
+
+    <div class="">
+        <input type="submit" name="Refresh">
+    </div>
+</form>
